@@ -161,6 +161,9 @@ model Product {
   // Variant relations
   variants ProductVariant[]
 
+  // Review relations
+  reviews Review[]
+
   @@unique([storeId, slug])
   @@map("products")
 }
