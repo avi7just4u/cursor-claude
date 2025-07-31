@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card } from '@neucircle/ui';
-import { LucideIcon } from 'lucide-react';
+import { DivideIcon as LucideIcon } from 'lucide-react';
 
 interface StatsCardProps {
   title: string;
